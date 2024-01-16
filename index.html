@@ -1,0 +1,29 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Interactive JavaScript Example</title>
+  <style>
+    .title01 {
+      color: red;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="title01" onclick="changeText()">hello! :)</div>
+
+  <script>
+    function changeText() {
+      var titleElement = document.querySelector(".title01");
+      titleElement.innerHTML = "Text changed!";
+      titleElement.style.color = "blue";
+    }
+  </script>
+
+</body>
+</html>
